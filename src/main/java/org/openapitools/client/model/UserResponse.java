@@ -50,7 +50,7 @@ import org.openapitools.client.JSON;
 /**
  * UserResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-02-17T10:12:24.177566699-05:00[America/Bogota]", comments = "Generator version: 7.7.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-02-17T10:12:24.177566699-05:00[America/Bogota]", comments = "Generator version: 7.7.0")
 public class UserResponse {
   public static final String SERIALIZED_NAME_ID = "id";
   @SerializedName(SERIALIZED_NAME_ID)
@@ -84,7 +84,7 @@ public class UserResponse {
    * Get id
    * @return id
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getId() {
     return id;
   }
@@ -103,7 +103,7 @@ public class UserResponse {
    * Get email
    * @return email
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getEmail() {
     return email;
   }
@@ -122,7 +122,7 @@ public class UserResponse {
    * Get fullName
    * @return fullName
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getFullName() {
     return fullName;
   }
@@ -141,7 +141,7 @@ public class UserResponse {
    * Get dateBirth
    * @return dateBirth
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public LocalDate getDateBirth() {
     return dateBirth;
   }
@@ -160,7 +160,7 @@ public class UserResponse {
    * Get rol
    * @return rol
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getRol() {
     return rol;
   }

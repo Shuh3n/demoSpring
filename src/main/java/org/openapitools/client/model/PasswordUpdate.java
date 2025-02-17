@@ -49,7 +49,7 @@ import org.openapitools.client.JSON;
 /**
  * PasswordUpdate
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-02-17T10:12:24.177566699-05:00[America/Bogota]", comments = "Generator version: 7.7.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-02-17T10:12:24.177566699-05:00[America/Bogota]", comments = "Generator version: 7.7.0")
 public class PasswordUpdate {
   public static final String SERIALIZED_NAME_CURRENT_PASSWORD = "currentPassword";
   @SerializedName(SERIALIZED_NAME_CURRENT_PASSWORD)
@@ -71,7 +71,7 @@ public class PasswordUpdate {
    * Contraseña actual del usuario
    * @return currentPassword
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getCurrentPassword() {
     return currentPassword;
   }
@@ -90,7 +90,7 @@ public class PasswordUpdate {
    * Nueva contraseña del usuario (debe contener al menos un dígito, una mayúscula y una minúscula)
    * @return newPassword
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getNewPassword() {
     return newPassword;
   }

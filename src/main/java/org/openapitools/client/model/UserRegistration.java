@@ -50,7 +50,7 @@ import org.openapitools.client.JSON;
 /**
  * UserRegistration
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-02-17T10:12:24.177566699-05:00[America/Bogota]", comments = "Generator version: 7.7.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-02-17T10:12:24.177566699-05:00[America/Bogota]", comments = "Generator version: 7.7.0")
 public class UserRegistration {
   public static final String SERIALIZED_NAME_EMAIL = "email";
   @SerializedName(SERIALIZED_NAME_EMAIL)
@@ -136,7 +136,7 @@ public class UserRegistration {
    * Get email
    * @return email
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getEmail() {
     return email;
   }
@@ -155,7 +155,7 @@ public class UserRegistration {
    * La contraseña del usuario (debe contener al menos un dígito, una mayúscula y una minúscula)
    * @return password
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getPassword() {
     return password;
   }
@@ -174,7 +174,7 @@ public class UserRegistration {
    * Get fullName
    * @return fullName
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getFullName() {
     return fullName;
   }
@@ -193,7 +193,7 @@ public class UserRegistration {
    * Get dateBirth
    * @return dateBirth
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public LocalDate getDateBirth() {
     return dateBirth;
   }
@@ -212,7 +212,7 @@ public class UserRegistration {
    * Get rol
    * @return rol
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public RolEnum getRol() {
     return rol;
   }

@@ -49,7 +49,7 @@ import org.openapitools.client.JSON;
 /**
  * ErrorResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-02-17T10:12:24.177566699-05:00[America/Bogota]", comments = "Generator version: 7.7.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-02-17T10:12:24.177566699-05:00[America/Bogota]", comments = "Generator version: 7.7.0")
 public class ErrorResponse {
   public static final String SERIALIZED_NAME_ERROR = "error";
   @SerializedName(SERIALIZED_NAME_ERROR)
@@ -71,7 +71,7 @@ public class ErrorResponse {
    * Get error
    * @return error
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getError() {
     return error;
   }
@@ -90,7 +90,7 @@ public class ErrorResponse {
    * Get message
    * @return message
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getMessage() {
     return message;
   }

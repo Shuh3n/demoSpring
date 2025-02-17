@@ -21,13 +21,14 @@ import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.context.request.NativeWebRequest;
 
-import javax.validation.constraints.*;
-import javax.validation.Valid;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+
 
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import javax.annotation.Generated;
+import jakarta.annotation.Generated;
 
 @Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-02-17T10:10:38.084998892-05:00[America/Bogota]", comments = "Generator version: 7.7.0")
 @Controller
